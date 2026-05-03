@@ -1,0 +1,27 @@
+{
+  "example": "Timken Bearing Product Specification",
+  "description": "Example specification for a Timken tapered roller bearing",
+  "bearing": {
+    "partNumber": "L68149",
+    "type": "Tapered Roller Bearing",
+    "boreDiameter": 34.925,
+    "outsideDiameter": 59.131,
+    "width": 15.875,
+    "dynamicLoadRating": 33.2,
+    "staticLoadRating": 29.3,
+    "speedRating": {
+      "greaseRpm": 6000,
+      "oilRpm": 8000
+    },
+    "material": "Steel",
+    "series": "L68100",
+    "applications": [
+      "Automotive wheel hubs",
+      "Agricultural equipment",
+      "Industrial gearboxes",
+      "Electric motors"
+    ],
+    "cadAvailable": true,
+    "weight": 0.125
+  }
+}

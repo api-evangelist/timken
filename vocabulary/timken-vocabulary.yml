@@ -1,0 +1,175 @@
+vocabulary:
+  name: Timken Vocabulary
+  description: >-
+    Vocabulary and taxonomy for Timken engineered bearings and industrial motion products
+    covering bearing types, specifications, applications, and engineering concepts.
+  version: '1.0'
+  created: '2026-05-03'
+  modified: '2026-05-03'
+
+terms:
+  - term: Bearing
+    definition: >-
+      A mechanical element that constrains relative motion to only the desired
+      motion while reducing friction between moving parts. Timken manufactures
+      various bearing types for industrial, automotive, and aerospace applications.
+    tags:
+      - Core Product
+      - Mechanical
+
+  - term: Tapered Roller Bearing
+    definition: >-
+      A rolling-element bearing that accommodates combined axial and radial loads.
+      Timken's original bearing invention, used extensively in wheel hubs, axles,
+      and gearboxes requiring both radial and thrust load support.
+    tags:
+      - Bearing Type
+      - Core Product
+
+  - term: Ball Bearing
+    definition: >-
+      A rolling-element bearing using spherical balls to maintain separation between
+      bearing races, suitable for lower load applications requiring high speed.
+    tags:
+      - Bearing Type
+
+  - term: Cylindrical Roller Bearing
+    definition: >-
+      A rolling-element bearing using cylinders rather than balls, providing
+      high radial load capacity with minimal axial load capability.
+    tags:
+      - Bearing Type
+
+  - term: Spherical Roller Bearing
+    definition: >-
+      A bearing with barrel-shaped rollers that self-align to compensate for
+      shaft misalignment, suitable for heavy loads and shock applications.
+    tags:
+      - Bearing Type
+
+  - term: Thrust Bearing
+    definition: >-
+      A rotational bearing designed primarily to support axial (thrust) loads
+      perpendicular to the shaft axis.
+    tags:
+      - Bearing Type
+
+  - term: Precision Bearing
+    definition: >-
+      High-accuracy bearings manufactured to tight tolerances for applications
+      requiring minimal runout, such as machine tool spindles and medical devices.
+    tags:
+      - Bearing Type
+      - High Precision
+
+  - term: Housed Unit
+    definition: >-
+      A pre-assembled bearing and housing combination that simplifies mounting
+      in industrial equipment. Available in various housing configurations.
+    aliases:
+      - Pillow Block
+      - Housed Bearing
+    tags:
+      - Bearing Assembly
+      - Mounting
+
+  - term: Dynamic Load Rating (C)
+    definition: >-
+      The calculated load a bearing can theoretically endure for one million
+      revolutions with 90% reliability, measured in kilonewtons (kN).
+    aliases:
+      - C Rating
+      - Basic Dynamic Load Rating
+    tags:
+      - Specification
+      - Load
+
+  - term: Static Load Rating (C0)
+    definition: >-
+      The maximum static load a bearing can sustain without causing permanent
+      deformation that would impair operation, measured in kilonewtons (kN).
+    aliases:
+      - C0 Rating
+    tags:
+      - Specification
+      - Load
+
+  - term: Bore Diameter
+    definition: >-
+      The inner diameter of a bearing's bore that fits onto the shaft,
+      expressed in millimeters.
+    tags:
+      - Dimension
+      - Specification
+
+  - term: Outside Diameter
+    definition: >-
+      The outer diameter of a bearing that fits into the housing bore,
+      expressed in millimeters.
+    tags:
+      - Dimension
+      - Specification
+
+  - term: Bearing Life
+    definition: >-
+      The calculated operating life of a bearing under specific load and speed
+      conditions, typically expressed as L10 life (hours for 90% survival rate).
+    aliases:
+      - L10 Life
+      - Fatigue Life
+    tags:
+      - Performance
+      - Reliability
+
+  - term: Seal
+    definition: >-
+      A device that closes gaps between stationary and moving parts in mechanical
+      equipment, preventing lubricant loss and contaminant entry. Timken offers
+      grease and oil seals for various applications.
+    tags:
+      - Product
+      - Sealing
+
+  - term: Lubrication
+    definition: >-
+      The application of grease or oil to bearing surfaces to reduce friction,
+      prevent wear, and dissipate heat. Timken offers automated lubrication systems
+      including the BEKA and Groeneveld product lines.
+    tags:
+      - Maintenance
+      - System
+
+  - term: Syber
+    definition: >-
+      Timken's proprietary bearing system analysis software for calculating
+      bearing life, load distribution, and performance across complete bearing
+      arrangements.
+    aliases:
+      - Timken Syber
+    tags:
+      - Software
+      - Engineering Tool
+
+  - term: Industrial Motion
+    definition: >-
+      A broad category of Timken products beyond bearings including gear drives,
+      belts, clutches, brakes, couplings, chain, and linear motion solutions.
+    tags:
+      - Product Category
+      - Portfolio
+
+  - term: CAD Drawing
+    definition: >-
+      Computer-aided design dimensional drawings available for download from the
+      Timken engineering portal for use in mechanical design and procurement.
+    tags:
+      - Engineering Resource
+      - Design
+
+  - term: Speed Rating
+    definition: >-
+      The maximum rotational speed at which a bearing can operate continuously
+      under specified lubrication conditions, expressed in RPM.
+    tags:
+      - Specification
+      - Performance

@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "timken": "https://www.timken.com/vocab/",
+    "qudt": "http://qudt.org/vocab/unit/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Bearing": "timken:Bearing",
+    "Product": "schema:Product",
+    "TaperedRollerBearing": "timken:TaperedRollerBearing",
+    "BallBearing": "timken:BallBearing",
+    "CylindricalRollerBearing": "timken:CylindricalRollerBearing",
+    "SphericalRollerBearing": "timken:SphericalRollerBearing",
+    "ThrustBearing": "timken:ThrustBearing",
+    "PrecisionBearing": "timken:PrecisionBearing",
+    "HousedUnit": "timken:HousedUnit",
+
+    "partNumber": "schema:sku",
+    "name": "schema:name",
+    "description": "schema:description",
+    "type": "schema:additionalType",
+    "series": "timken:productSeries",
+    "material": "schema:material",
+    "applications": "schema:applicationCategory",
+    "weight": "schema:weight",
+    "cadAvailable": "timken:cadAvailable",
+
+    "boreDiameter": {
+      "@id": "timken:boreDiameter",
+      "@type": "xsd:decimal"
+    },
+    "outsideDiameter": {
+      "@id": "timken:outsideDiameter",
+      "@type": "xsd:decimal"
+    },
+    "width": {
+      "@id": "timken:bearingWidth",
+      "@type": "xsd:decimal"
+    },
+    "dynamicLoadRating": {
+      "@id": "timken:dynamicLoadRatingC",
+      "@type": "xsd:decimal"
+    },
+    "staticLoadRating": {
+      "@id": "timken:staticLoadRatingC0",
+      "@type": "xsd:decimal"
+    },
+    "speedRating": "timken:speedRating",
+    "greaseRpm": "timken:greaseLubricationSpeedRpm",
+    "oilRpm": "timken:oilLubricationSpeedRpm"
+  }
+}

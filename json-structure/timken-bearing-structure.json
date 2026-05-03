@@ -1,0 +1,69 @@
+{
+  "title": "Timken Bearing Structure",
+  "description": "Structural documentation for Timken engineered bearing product specifications",
+  "type": "object",
+  "fields": [
+    {
+      "name": "partNumber",
+      "type": "string",
+      "description": "Timken part number identifier",
+      "required": true
+    },
+    {
+      "name": "type",
+      "type": "string (enum)",
+      "description": "Bearing type: Tapered Roller, Ball, Cylindrical Roller, etc.",
+      "required": true
+    },
+    {
+      "name": "boreDiameter",
+      "type": "number",
+      "description": "Bore diameter in millimeters"
+    },
+    {
+      "name": "outsideDiameter",
+      "type": "number",
+      "description": "Outside diameter in millimeters"
+    },
+    {
+      "name": "width",
+      "type": "number",
+      "description": "Bearing width in millimeters"
+    },
+    {
+      "name": "dynamicLoadRating",
+      "type": "number",
+      "description": "Dynamic load rating C in kilonewtons"
+    },
+    {
+      "name": "staticLoadRating",
+      "type": "number",
+      "description": "Static load rating C0 in kilonewtons"
+    },
+    {
+      "name": "speedRating",
+      "type": "object",
+      "description": "Maximum speeds for grease and oil lubrication in RPM"
+    },
+    {
+      "name": "material",
+      "type": "string",
+      "description": "Primary material specification"
+    },
+    {
+      "name": "series",
+      "type": "string",
+      "description": "Timken product series designation"
+    },
+    {
+      "name": "applications",
+      "type": "array[string]",
+      "description": "Typical application markets and use cases"
+    },
+    {
+      "name": "weight",
+      "type": "number",
+      "description": "Bearing weight in kilograms"
+    }
+  ]
+}

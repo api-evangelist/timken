@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/timken/main/json-schema/timken-bearing-schema.json",
+  "title": "Timken Bearing",
+  "description": "Schema for a Timken engineered bearing product specification",
+  "type": "object",
+  "properties": {
+    "partNumber": {
+      "type": "string",
+      "description": "Timken part number for the bearing"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "Tapered Roller Bearing",
+        "Cylindrical Roller Bearing",
+        "Ball Bearing",
+        "Spherical Roller Bearing",
+        "Thrust Bearing",
+        "Plain Bearing",
+        "Housed Unit",
+        "Precision Bearing"
+      ],
+      "description": "Bearing type classification"
+    },
+    "boreDiameter": {
+      "type": "number",
+      "description": "Bore diameter in millimeters"
+    },
+    "outsideDiameter": {
+      "type": "number",
+      "description": "Outside diameter in millimeters"
+    },
+    "width": {
+      "type": "number",
+      "description": "Bearing width or height in millimeters"
+    },
+    "dynamicLoadRating": {
+      "type": "number",
+      "description": "Dynamic load rating (C) in kilonewtons (kN)"
+    },
+    "staticLoadRating": {
+      "type": "number",
+      "description": "Static load rating (C0) in kilonewtons (kN)"
+    },
+    "speedRating": {
+      "type": "object",
+      "description": "Speed ratings for the bearing",
+      "properties": {
+        "greaseRpm": {
+          "type": "integer",
+          "description": "Maximum speed with grease lubrication (RPM)"
+        },
+        "oilRpm": {
+          "type": "integer",
+          "description": "Maximum speed with oil lubrication (RPM)"
+        }
+      }
+    },
+    "material": {
+      "type": "string",
+      "description": "Primary material (e.g., steel, ceramic, stainless)"
+    },
+    "series": {
+      "type": "string",
+      "description": "Timken product series designation"
+    },
+    "applications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Typical application areas"
+    },
+    "cadAvailable": {
+      "type": "boolean",
+      "description": "Whether CAD drawings are available for download"
+    },
+    "weight": {
+      "type": "number",
+      "description": "Bearing weight in kilograms"
+    }
+  },
+  "required": ["partNumber", "type"]
+}
