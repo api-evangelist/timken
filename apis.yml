@@ -72,6 +72,8 @@ solutions:
   - Renewable energy bearings
   - Medical device motion components
 common:
+  - type: DomainSecurity
+    url: security/timken-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/the-timken-company
   - type: Website
