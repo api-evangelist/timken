@@ -1,7 +1,9 @@
 ---
 title: 'Timken: Putting career development in motion with AI ...'
 url: https://www.sap.com/asset/dynamic/2026/01/56419c3f-3a7f-0010-bca6-c68f7e60039b.html
-date: '2026-05-25'
+published: '2026-01-56'
+date_basis: url-derived
+harvested: '2026-05-25'
 query: '"Timken" press release artificial intelligence'
 position: 4
 source: serpapi-google

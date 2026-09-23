@@ -1,7 +1,9 @@
 ---
 title: 'Press Release: Timken Reports First-Quarter 2026 Results'
 url: https://www.moomoo.com/news/post/69462214/press-release-timken-reports-first-quarter-2026-results
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Timken" press release artificial intelligence'
 position: 5
 source: serpapi-google

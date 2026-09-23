@@ -1,7 +1,9 @@
 ---
 title: Timken Reports Fourth-Quarter and Full-Year 2025 Results
 url: https://investors.timken.com/financial-news/press-release/2026/Timken-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Timken" press release artificial intelligence'
 position: 2
 source: serpapi-google

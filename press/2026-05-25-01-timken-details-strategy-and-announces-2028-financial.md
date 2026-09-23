@@ -1,7 +1,9 @@
 ---
 title: Timken Details Strategy and Announces 2028 Financial ...
 url: https://www.prnewswire.com/news-releases/timken-details-strategy-and-announces-2028-financial-targets-at-investor-day-302777953.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Timken" press release artificial intelligence'
 position: 1
 source: serpapi-google
